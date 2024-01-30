@@ -44,3 +44,10 @@ php artisan make:migration add_some_users
         );
     }
 ```
+
+## Movies migration
+
+```sh
+php artisan make:migration create_movies_table --table=movies --create
+php artisan make:migration add_some_movies
+```
