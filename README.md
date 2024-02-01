@@ -51,3 +51,10 @@ php artisan make:migration add_some_users
 php artisan make:migration create_movies_table --table=movies --create
 php artisan make:migration add_some_movies
 ```
+
+## Actors
+
+```sh
+php artisan make:migration create_actors_table
+php artisan make:model Actor
+```
